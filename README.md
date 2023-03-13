@@ -1,7 +1,7 @@
 # js-vehiclekeys
 Simple vehiclekeys script with NUI
 
-Dependecys:
+### Dependecys:
 
   - ESX Legacy
   - OXMysql
