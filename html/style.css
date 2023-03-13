@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    width: 22vh;
+    height: auto;
+}
+
+.image-container {
+    position: absolute;
+    right: 27vh;
+    bottom: -30vh;
+}
+
+label {
+    margin-bottom: .5vh;
+}
+
+.image-opslot {
+    position: absolute;
+    top: 6.7vh;
+    left: 5vh;
+    width: 10vh;
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.image-trunk {
+    position: absolute;
+    top: 10.5vh;
+    left: 5vh;
+    width: 10vh;
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.image-open {
+    position: absolute;
+    top: 15.5vh;
+    left: 5vh;
+    width: 10vh;
+    height: 3.5vh;
+    cursor: pointer;
+}
