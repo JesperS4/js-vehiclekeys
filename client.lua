@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
     while ESX.PlayerData.job == nil do
         Wait(100)
     end
-    TriggerServerEvent('ax-vehiclekeys:server:setVehicleKeys')
+    TriggerServerEvent('prisma-vehiclekeys:server:setVehicleKeys')
 end)
 
 RegisterKeyMapping('voertuigslot', 'Om je voertuig opslot te doen', 'keyboard', 'U')
@@ -18,7 +18,7 @@ RegisterCommand('voertuigslot', function()
 
     if distance < 4 then
         currentVehicle = vehicle
-        ESX.TriggerServerCallback('ax-vehiclekeys:server:isVehicleOwned', function(owned)
+        ESX.TriggerServerCallback('prisma-vehiclekeys:server:isVehicleOwned', function(owned)
             if owned then
                 SendNUIMessage({
                     action = 'open'
