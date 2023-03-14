@@ -1,4 +1,4 @@
-# js-vehiclekeys
+# prisma-vehiclekeys
 Simple vehiclekeys script with NUI
 
 ### Dependencies:
