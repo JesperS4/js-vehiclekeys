@@ -1,7 +1,7 @@
 Vehicles = {}
 
 
-RegisterServerEvent('ax-vehiclekeys:server:setVehicleKeys', function()
+RegisterServerEvent('prisma-vehiclekeys:server:setVehicleKeys', function()
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
 
@@ -19,7 +19,7 @@ RegisterServerEvent('ax-vehiclekeys:server:setVehicleKeys', function()
 end)
 
 
-RegisterServerEvent('ax-vehiclekeys:server:registerJobKey', function(plate)
+RegisterServerEvent('prisma-vehiclekeys:server:registerJobKey', function(plate)
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
     if Vehicles[xPlayer.identifier] == nil then Vehicles[xPlayer.identifier] = {} end
