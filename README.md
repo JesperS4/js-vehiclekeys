@@ -10,4 +10,4 @@ Simple vehiclekeys script with NUI
  
 If you have questions you can connect me by discord. 
 
-- Jesper#0007
+- https://discord.prismacollective.eu/
