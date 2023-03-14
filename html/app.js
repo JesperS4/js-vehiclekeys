@@ -13,16 +13,16 @@ $(document).ready(() => {
 
 $(() => {
     $('.image-opslot').click(function(e) {  
-        $.post('https://ax-vehiclekeys/closevehicle')
+        $.post('https://prisma-vehiclekeys/closevehicle')
         toggleKey(false)
     });
     $('.image-trunk').click(function(e) {  
-        $.post('https://ax-vehiclekeys/opentrunk')
+        $.post('https://prisma-vehiclekeys/opentrunk')
         toggleKey(false)
 
     });
     $('.image-open').click(function(e) {  
-        $.post('https://ax-vehiclekeys/openvehicle')
+        $.post('https://prisma-vehiclekeys/openvehicle')
         toggleKey(false)
 
     });
@@ -41,7 +41,7 @@ toggleKey = (bool) => {
         $('.image-container').show()
         $('.image-container').animate({'bottom': '1vh'}, 450)
     } else {
-        $.post('https://ax-vehiclekeys/close')
+        $.post('https://prisma-vehiclekeys/close')
         $('.image-container').animate({'bottom': '-30vh'}, 450, function() {
             $('.image-container').hide()
         })
